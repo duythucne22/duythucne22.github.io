@@ -1,3 +1,16 @@
+---
+title: "Reversing.kr Training practice"
+description: "Practice make perfect"
+summary: "Writeup Rev.kr"
+categories: ["Writeup"]
+tags: ["Reverse", "Reversing.kr","trainning"]
+#externalUrl: ""
+date: 2022-02-10
+draft: false
+authors:
+  - Fangyuan
+---
+
 # Reversing.kr practice Write-up 
 
 ## Easy Crack - 100pts
