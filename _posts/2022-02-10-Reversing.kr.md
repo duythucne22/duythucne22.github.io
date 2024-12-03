@@ -1,14 +1,13 @@
 ---
-title: "Reversing.kr Training practice"
-description: "Practice make perfect"
-summary: "Writeup Rev.kr"
-categories: ["Writeup"]
-tags: ["Reverse", "Reversing.kr","trainning"]
-#externalUrl: ""
+title: 'Reversing.kr Training'
 date: 2022-02-10
-draft: false
+permalink: /posts/2022/02/reversingkr/
+tags:
+  - Training
+  - reverseing
+  - writeups
 authors:
-  - Fangyuan
+  - f4ngyu4n
 ---
 
 # Reversing.kr practice Write-up 
