@@ -1,14 +1,12 @@
 ---
-title: "CORCTF 2022"
-description: "Writeup for CORCTF 2022"
-summary: "Writeup for CORCTF 2022"
-categories: ["Writeup"]
-tags: ["Reverse", "CORCTF",""]
-#externalUrl: ""
+title: 'CORCTF2022'
 date: 2022-06-28
-draft: false
+permalink: /posts/2022/06/CORCTF/
+tags:
+  - ctf
+  - reverseing
 authors:
-  - Fangyuan
+  - f4ngyu4n
 ---
 
 ## Microsoft Linux
