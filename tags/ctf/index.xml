@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>ctf on Fang Yuan</title>
+    <link>http://example.org/tags/ctf/</link>
+    <description>Recent content in ctf on Fang Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>DiceCTF 2022 Writeups</title>
+        <link>http://example.org/posts/dicectf2022/</link>
+        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Wed, 06 Jul 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/dicectf2022/</guid>
+        <description>ctf.dicega.ng - baby-rop Challenge link: https://ctf.dicega.ng/challs
+You can also download challenge file from my repo: baby-rop.zip
+There will be 5 files in zip:
+babyrop ld-linux-x86-64.so.2 libc.so.6 seccomp-bpf.h uaf.c You can use patchelf or attached file &amp;ldquo;patch.sh&amp;rdquo; to patch file.
+Disclamer: This repo for studying purpose only. Origin writeup here.
+And when everything&amp;rsquo;s ready, let&amp;rsquo;s start!
+1. Find bug First, we will use file to check information of challenge:
+babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter .</description>
+        
+        <dc:creator>fangyuan</dc:creator>
+        <media:content url="http://example.orgimages/ctf/Dice.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>ROP</category>
+            
+          
+        
+        
+          
+            
+              <category>resources</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
