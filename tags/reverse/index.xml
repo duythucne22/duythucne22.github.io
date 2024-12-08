@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Reverse on Fang Yuan</title>
+    <link>http://example.org/tags/reverse/</link>
+    <description>Recent content in Reverse on Fang Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/tags/reverse/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Sekai CTF 2024</title>
+        <link>http://example.org/posts/2024/sekaictf2024/</link>
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Sun, 01 Sep 2024 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/2024/sekaictf2024/</guid>
+        <description>Crack Me Developed for SekaiCTF 2022 but never got a chance to release it. Can you log in and claim the flag?Crack Me is an android application that asks for a email and password.
+Exploit When opening the app we are greeting with a login screen:
+Inspecting the internals of the app with jadx shows us in com.SekaiCTF.CrackMe.MainApplication that we are dealing with a ReactNative application.
+Time to look for the JavaScript&amp;hellip; which we can find in the assets/index.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        <media:content url="http://example.orgimages/ctf/Sekai.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reverse</category>
+            
+          
+            
+              <category>Pwn</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Pearl CTF 2024</title>
+        <link>http://example.org/posts/2024/pearctf2024/</link>
+        <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 24 Aug 2024 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/2024/pearctf2024/</guid>
+        <description>Pwn adventure Use stack pivoting for this challenge
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 from pwn import * context.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        <media:content url="http://example.orgimages/ctf/pearl.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reverse</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Angstrom CTF 2023</title>
+        <link>http://example.org/posts/2023/angstromctf2023/</link>
+        <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Thu, 27 Apr 2023 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/2023/angstromctf2023/</guid>
+        <description>checkers checkers
+This one very easy, just look into IDA or using anything to view strings.
+Flag: actf{ive_be3n_checkm4ted_21d1b2cebabf983f}
+zaza nc challs.actf.co 32760
+zaza
+This challenge have 3 check, a number, sussy check, and a string:
+That number is 4919 and the second number is any.
+After that, This challenge get our input and xor with string:
+&amp;quot;anextremelycomplicatedkeythatisdefinitelyuselessss&amp;quot;
+and compare with:
+&amp;quot;2&amp;amp; =$!-( &amp;lt;*+*( ?!&amp;amp;$$6,. )&#39; $19 , #9=!1 &amp;lt;*=6 &amp;lt;6;66#&amp;quot;</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        <media:content url="http://example.orgimages/ctf/angstrom.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reverse</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

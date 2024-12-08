@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Notes on Fang Yuan</title>
+    <link>http://example.org/notes/</link>
+    <description>Recent content in Notes on Fang Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Pwn simple exploit</title>
+        <link>http://example.org/notes/note/</link>
+        <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/notes/note/</guid>
+        <description>Bof Fmt Heap </description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

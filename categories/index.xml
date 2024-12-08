@@ -14,19 +14,73 @@
     <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
     <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>resources</title>
-        <link>http://example.org/categories/resources/</link>
-        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        <title>PWN</title>
+        <link>http://example.org/categories/pwn/</link>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/categories/resources/</guid>
+        <guid>http://example.org/categories/pwn/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Rev</title>
+        <link>http://example.org/categories/rev/</link>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/categories/rev/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Writeup</title>
+        <link>http://example.org/categories/writeup/</link>
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/categories/writeup/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>RE</title>
+        <link>http://example.org/categories/re/</link>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/categories/re/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>

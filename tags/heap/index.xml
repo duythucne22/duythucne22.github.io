@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>heap on Fang Yuan</title>
+    <link>http://example.org/tags/heap/</link>
+    <description>Recent content in heap on Fang Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/tags/heap/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Sekai CTF 2024</title>
+        <link>http://example.org/posts/2024/sekaictf2024/</link>
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Sun, 01 Sep 2024 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/2024/sekaictf2024/</guid>
+        <description>Crack Me Developed for SekaiCTF 2022 but never got a chance to release it. Can you log in and claim the flag?Crack Me is an android application that asks for a email and password.
+Exploit When opening the app we are greeting with a login screen:
+Inspecting the internals of the app with jadx shows us in com.SekaiCTF.CrackMe.MainApplication that we are dealing with a ReactNative application.
+Time to look for the JavaScript&amp;hellip; which we can find in the assets/index.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        <media:content url="http://example.orgimages/ctf/Sekai.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Reverse</category>
+            
+          
+            
+              <category>Pwn</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Pwnable.tw Writeups</title>
+        <link>http://example.org/posts/pwnable.tw/</link>
+        <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/pwnable.tw/</guid>
+        <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
+So leaking one of them will help us get the pointer point to our shellcode. And that ROP gadget is at _start+38, which means after that print out, it will get input from us again.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Pwn simple exploit</title>
+        <link>http://example.org/notes/note/</link>
+        <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/notes/note/</guid>
+        <description>Bof Fmt Heap </description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

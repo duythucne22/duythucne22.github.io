@@ -6,27 +6,120 @@
   xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
-    <title>ROP on Fang Yuan</title>
+    <title>rop on Fang Yuan</title>
     <link>http://example.org/tags/rop/</link>
-    <description>Recent content in ROP on Fang Yuan</description>
+    <description>Recent content in rop on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
     <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://example.org/tags/rop/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Asis CTF Writeup</title>
+        <link>http://example.org/posts/2023/asisctf2023/</link>
+        <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Thu, 02 Nov 2023 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/2023/asisctf2023/</guid>
+        <description>PWN hipwn Checksec
+1 2 3 4 5 6 7 8 9 10 $ checksec chall [*] &amp;#39;/mnt/c/Users/duyth/Downloads/chall&amp;#39; Arch: amd64-64-little RELRO: Full RELRO Stack: Canary found NX: NX enabled PIE: PIE enabled SHSTK: Enabled IBT: Enabled Stripped: No main function:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 int __cdecl main(int argc, const char **argv, const char **envp) { unsigned int nbytes; // [rsp+Ch] [rbp-54h] BYREF char nbytes_4[72]; // [rsp+10h] [rbp-50h] BYREF unsigned __int64 v6; // [rsp+58h] [rbp-8h] v6 = __readfsqword(0x28u); setbuf(_bss_start, 0LL); setbuf(stdin, 0LL); while ( 1 ) { puts(&amp;#34;How much?</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        <media:content url="http://example.orgimages/ctf/asis.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ctf</category>
+            
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>ROP</category>
+            
+          
+        
+        
+          
+            
+              <category>PWN</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Pwnable.tw Writeups</title>
+        <link>http://example.org/posts/pwnable.tw/</link>
+        <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/pwnable.tw/</guid>
+        <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
+So leaking one of them will help us get the pointer point to our shellcode. And that ROP gadget is at _start+38, which means after that print out, it will get input from us again.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>DiceCTF 2022 Writeups</title>
-        <link>http://example.org/posts/dicectf2022/</link>
+        <link>http://example.org/posts/2022/dicectf2022/</link>
         <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 06 Jul 2022 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/dicectf2022/</guid>
+        <guid>http://example.org/posts/2022/dicectf2022/</guid>
         <description>ctf.dicega.ng - baby-rop Challenge link: https://ctf.dicega.ng/challs
 You can also download challenge file from my repo: baby-rop.zip
 There will be 5 files in zip:
@@ -36,7 +129,7 @@ And when everything&amp;rsquo;s ready, let&amp;rsquo;s start!
 1. Find bug First, we will use file to check information of challenge:
 babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter .</description>
         
-        <dc:creator>fangyuan</dc:creator>
+        <dc:creator>fang yuan</dc:creator>
         <media:content url="http://example.orgimages/ctf/Dice.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
@@ -58,12 +151,110 @@ babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked
         
           
             
-              <category>resources</category>
+              <category>PWN</category>
             
           
         
         
           
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Pwn simple exploit</title>
+        <link>http://example.org/notes/note/</link>
+        <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/notes/note/</guid>
+        <description>Bof Fmt Heap </description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Trainning ROP EMPORIUM</title>
+        <link>http://example.org/posts/rop-emporium/</link>
+        <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/rop-emporium/</guid>
+        <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
+The input buffer is 32 bytes, but the input area allows 56 bytes. This allow overwriting the saved RBP and RIP.
+Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;#34;./ret2win&amp;#34;) elf = ELF(&amp;#34;./ret2win&amp;#34;) payload = &amp;#34;A&amp;#34; * 40 payload += p64(elf.symbols[&amp;#34;ret2win&amp;#34;]) open(&amp;#39;payload&amp;#39;, &amp;#39;w&amp;#39;).</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Training</category>
+            
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+            
+              <category>writeups</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
             
           
         

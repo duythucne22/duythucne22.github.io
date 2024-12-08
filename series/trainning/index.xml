@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>trainning on Fang Yuan</title>
+    <link>http://example.org/series/trainning/</link>
+    <description>Recent content in trainning on Fang Yuan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
+    <copyright>©2024, All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="http://example.org/series/trainning/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Pwnable.tw Writeups</title>
+        <link>http://example.org/posts/pwnable.tw/</link>
+        <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/pwnable.tw/</guid>
+        <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
+So leaking one of them will help us get the pointer point to our shellcode. And that ROP gadget is at _start+38, which means after that print out, it will get input from us again.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Reversing.kr Training Writeups</title>
+        <link>http://example.org/posts/reversing.kr/</link>
+        <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Thu, 10 Feb 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/reversing.kr/</guid>
+        <description>Reversing.kr practice Write-up Easy Crack - 100pts Initial analysis with DiE , we have a PE32 file
+Open with IDA, at function DialogFunc have sub_401080, use winapi GetDlgItemTextA and MessageBoxA, take value from input to String, comapre then message.
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 int __cdecl sub_401080(HWND hDlg) { CHAR String[97]; // [esp+4h] [ebp-64h] BYREF __int16 v3; // [esp+65h] [ebp-3h] char v4; // [esp+67h] [ebp-1h] memset(String, 0, sizeof(String)); v3 = 0; v4 = 0; GetDlgItemTextA(hDlg, 1000, String, 100); if ( String[1] !</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>practice</category>
+            
+          
+            
+              <category>reverseing</category>
+            
+          
+            
+              <category>writeups</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Pwn simple exploit</title>
+        <link>http://example.org/notes/note/</link>
+        <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/notes/note/</guid>
+        <description>Bof Fmt Heap </description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>bof</category>
+            
+          
+            
+              <category>heap</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Trainning ROP EMPORIUM</title>
+        <link>http://example.org/posts/rop-emporium/</link>
+        <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
+        <guid>http://example.org/posts/rop-emporium/</guid>
+        <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
+The input buffer is 32 bytes, but the input area allows 56 bytes. This allow overwriting the saved RBP and RIP.
+Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;#34;./ret2win&amp;#34;) elf = ELF(&amp;#34;./ret2win&amp;#34;) payload = &amp;#34;A&amp;#34; * 40 payload += p64(elf.symbols[&amp;#34;ret2win&amp;#34;]) open(&amp;#39;payload&amp;#39;, &amp;#39;w&amp;#39;).</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Training</category>
+            
+          
+            
+              <category>pwn</category>
+            
+          
+            
+              <category>rop</category>
+            
+          
+            
+              <category>writeups</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+          
+            
+              <category>trainning</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
