@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>PWN on Fang Yuan</title>
-    <link>http://example.org/categories/pwn/</link>
+    <link>https://duythucne22.github.io/categories/pwn/</link>
     <description>Recent content in PWN on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,22 +16,22 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/categories/pwn/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://duythucne22.github.io/categories/pwn/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Duy Tan University CTF 2024</title>
-        <link>http://example.org/posts/2024/isitdtuctf2024quals/</link>
+        <link>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 20 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2024/isitdtuctf2024quals/</guid>
+        <guid>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</guid>
         <description>Pwn shellcode 1 Analysis It&amp;rsquo;a Shellcoding Challenge with a seccomp filter.
 # line CODE JT JF K# =================================# 0000: 0x20 0x00 0x00 0x00000004 A = arch# 0001: 0x15 0x00 0x0a 0xc000003e if (A != ARCH_X86_64) goto 0012# 0002: 0x20 0x00 0x00 0x00000000 A = sys_number# 0003: 0x35 0x00 0x01 0x40000000 if (A &amp;lt; 0x40000000) goto 0005# 0004: 0x15 0x00 0x07 0xffffffff if (A != 0xffffffff) goto 0012# 0005: 0x15 0x06 0x00 0x00000000 if (A == read) goto 0012# 0006: 0x15 0x05 0x00 0x00000001 if (A == write) goto 0012# 0007: 0x15 0x04 0x00 0x00000002 if (A == open) goto 0012# 0008: 0x15 0x03 0x00 0x0000003b if (A == execve) goto 0012# 0009: 0x15 0x02 0x00 0x000000f0 if (A == mq_open) goto 0012# 0010: 0x15 0x01 0x00 0x00000101 if (A == openat) goto 0012# 0011: 0x06 0x00 0x00 0x7fff0000 return ALLOW# 0012: 0x06 0x00 0x00 0x00000000 return KILL open, read, write, execve syscall is blocked.</description>
         
         <dc:creator>f4ng yu4n</dc:creator>
-        <media:content url="http://example.orgimages/ctf/duytan.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/duytan.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -69,17 +69,17 @@
       
       <item>
         <title>ATTTSV 2024</title>
-        <link>http://example.org/posts/2024/ascis2024/</link>
+        <link>https://duythucne22.github.io/posts/2024/ascis2024/</link>
         <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Mon, 28 Oct 2024 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2024/ascis2024/</guid>
+        <guid>https://duythucne22.github.io/posts/2024/ascis2024/</guid>
         <description>(I will Update, redo later if i am free :)) )
 A little sad that i was on other team, and the Quals did not got any pwn challenge, so just help the other team to get Khuyen Khich award heehe:))
 Run 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 #!</description>
         
         <dc:creator>f4ng yu4n</dc:creator>
-        <media:content url="http://example.orgimages/ctf/ASCIS.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/ASCIS.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -109,15 +109,15 @@ Run 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2
       
       <item>
         <title>Patriot CTF 2024</title>
-        <link>http://example.org/posts/2024/patriotctf2024/</link>
+        <link>https://duythucne22.github.io/posts/2024/patriotctf2024/</link>
         <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 28 Sep 2024 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2024/patriotctf2024/</guid>
+        <guid>https://duythucne22.github.io/posts/2024/patriotctf2024/</guid>
         <description>shrimple strings only 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 from pwn import * def malloc(): p.sendline(b&amp;#39;1&amp;#39;) p.sendlineafter(b&amp;#34;Size &amp;gt; &amp;#34;, b&amp;#39;16&amp;#39;) p.recvuntil(b&amp;#39;&amp;gt; &amp;#39;) def write(idx, string): p.sendline(b&amp;#39;2&amp;#39;) p.sendlineafter(b&amp;#39;Index &amp;gt; &amp;#39;, idx) p.</description>
         
         <dc:creator>f4ng yu4n</dc:creator>
-        <media:content url="http://example.orgimages/ctf/patriot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/patriot.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -151,11 +151,11 @@ Run 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2
       
       <item>
         <title>Google CTF 2024 Writeup</title>
-        <link>http://example.org/posts/2024/googlectf2024/</link>
+        <link>https://duythucne22.github.io/posts/2024/googlectf2024/</link>
         <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Sun, 30 Jun 2024 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2024/googlectf2024/</guid>
+        <guid>https://duythucne22.github.io/posts/2024/googlectf2024/</guid>
         <description>This year wn challenge was so hard, it also got lot of crypto encryption inside that :((
 Encrypted runner Description:
 You won&#39;t be able to run anything but ls, echo or date, hahahaha!
@@ -164,7 +164,7 @@ Our goal is to somehow encrypt arbitary commands (and send it to the remote).
 Leaking private aes key If you try encrypting and decrypting characters above 255, you can see this:</description>
         
         <dc:creator>fang yuan</dc:creator>
-        <media:content url="http://example.orgimages/ctf/google.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/google.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -194,17 +194,17 @@ Leaking private aes key If you try encrypting and decrypting characters above 25
       
       <item>
         <title>Asis CTF Writeup</title>
-        <link>http://example.org/posts/2023/asisctf2023/</link>
+        <link>https://duythucne22.github.io/posts/2023/asisctf2023/</link>
         <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 02 Nov 2023 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2023/asisctf2023/</guid>
+        <guid>https://duythucne22.github.io/posts/2023/asisctf2023/</guid>
         <description>PWN hipwn Checksec
 1 2 3 4 5 6 7 8 9 10 $ checksec chall [*] &amp;#39;/mnt/c/Users/duyth/Downloads/chall&amp;#39; Arch: amd64-64-little RELRO: Full RELRO Stack: Canary found NX: NX enabled PIE: PIE enabled SHSTK: Enabled IBT: Enabled Stripped: No main function:
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 int __cdecl main(int argc, const char **argv, const char **envp) { unsigned int nbytes; // [rsp+Ch] [rbp-54h] BYREF char nbytes_4[72]; // [rsp+10h] [rbp-50h] BYREF unsigned __int64 v6; // [rsp+58h] [rbp-8h] v6 = __readfsqword(0x28u); setbuf(_bss_start, 0LL); setbuf(stdin, 0LL); while ( 1 ) { puts(&amp;#34;How much?</description>
         
         <dc:creator>fang yuan</dc:creator>
-        <media:content url="http://example.orgimages/ctf/asis.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/asis.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -238,18 +238,18 @@ Leaking private aes key If you try encrypting and decrypting characters above 25
       
       <item>
         <title>TetCTF 2023</title>
-        <link>http://example.org/posts/2023/tetctf2023/</link>
+        <link>https://duythucne22.github.io/posts/2023/tetctf2023/</link>
         <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 12 Jan 2023 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2023/tetctf2023/</guid>
+        <guid>https://duythucne22.github.io/posts/2023/tetctf2023/</guid>
         <description>TetCTF 2023 - pwn01 You can download challenge files in my repo: pwn01.zip
 1. Find bug &amp;amp; Generate idea In main(), there are 3 options for us to choose:
 However, we cannot do anything except login so that&amp;rsquo;s the first thing we need to do. Here is the result from IDA for function login():
 Maybe because a large space for each variabel so IDA seems to work wrong when defining variables, so we need to use debugger to test our input to check if there are any bug when we input data.</description>
         
         <dc:creator>f4ng yu4n</dc:creator>
-        <media:content url="http://example.orgimages/ctf/tet.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/tet.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         
@@ -283,11 +283,11 @@ Maybe because a large space for each variabel so IDA seems to work wrong when de
       
       <item>
         <title>DiceCTF 2022 Writeups</title>
-        <link>http://example.org/posts/2022/dicectf2022/</link>
+        <link>https://duythucne22.github.io/posts/2022/dicectf2022/</link>
         <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 06 Jul 2022 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2022/dicectf2022/</guid>
+        <guid>https://duythucne22.github.io/posts/2022/dicectf2022/</guid>
         <description>ctf.dicega.ng - baby-rop Challenge link: https://ctf.dicega.ng/challs
 You can also download challenge file from my repo: baby-rop.zip
 There will be 5 files in zip:
@@ -298,7 +298,7 @@ And when everything&amp;rsquo;s ready, let&amp;rsquo;s start!
 babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter .</description>
         
         <dc:creator>fang yuan</dc:creator>
-        <media:content url="http://example.orgimages/ctf/Dice.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/Dice.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

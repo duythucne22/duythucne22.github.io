@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>shellcode on Fang Yuan</title>
-    <link>http://example.org/tags/shellcode/</link>
+    <link>https://duythucne22.github.io/tags/shellcode/</link>
     <description>Recent content in shellcode on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,22 +16,22 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/shellcode/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://duythucne22.github.io/tags/shellcode/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Duy Tan University CTF 2024</title>
-        <link>http://example.org/posts/2024/isitdtuctf2024quals/</link>
+        <link>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 20 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2024/isitdtuctf2024quals/</guid>
+        <guid>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</guid>
         <description>Pwn shellcode 1 Analysis It&amp;rsquo;a Shellcoding Challenge with a seccomp filter.
 # line CODE JT JF K# =================================# 0000: 0x20 0x00 0x00 0x00000004 A = arch# 0001: 0x15 0x00 0x0a 0xc000003e if (A != ARCH_X86_64) goto 0012# 0002: 0x20 0x00 0x00 0x00000000 A = sys_number# 0003: 0x35 0x00 0x01 0x40000000 if (A &amp;lt; 0x40000000) goto 0005# 0004: 0x15 0x00 0x07 0xffffffff if (A != 0xffffffff) goto 0012# 0005: 0x15 0x06 0x00 0x00000000 if (A == read) goto 0012# 0006: 0x15 0x05 0x00 0x00000001 if (A == write) goto 0012# 0007: 0x15 0x04 0x00 0x00000002 if (A == open) goto 0012# 0008: 0x15 0x03 0x00 0x0000003b if (A == execve) goto 0012# 0009: 0x15 0x02 0x00 0x000000f0 if (A == mq_open) goto 0012# 0010: 0x15 0x01 0x00 0x00000101 if (A == openat) goto 0012# 0011: 0x06 0x00 0x00 0x7fff0000 return ALLOW# 0012: 0x06 0x00 0x00 0x00000000 return KILL open, read, write, execve syscall is blocked.</description>
         
         <dc:creator>f4ng yu4n</dc:creator>
-        <media:content url="http://example.orgimages/ctf/duytan.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/duytan.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

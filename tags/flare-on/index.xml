@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>flare on on Fang Yuan</title>
-    <link>http://example.org/tags/flare-on/</link>
+    <link>https://duythucne22.github.io/tags/flare-on/</link>
     <description>Recent content in flare on on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,23 +16,23 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/flare-on/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://duythucne22.github.io/tags/flare-on/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Flare On 11</title>
-        <link>http://example.org/posts/2024/flareon11/</link>
+        <link>https://duythucne22.github.io/posts/2024/flareon11/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 01 Nov 2024 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/2024/flareon11/</guid>
+        <guid>https://duythucne22.github.io/posts/2024/flareon11/</guid>
         <description>First time playing flare on, alone :(, and this happen during my midterm exam , so dont really have much time playing it, just manage to solve up to challenge 5 still stuck a little there, I&amp;rsquo;m so noob, gonna try harder next time.
 Challenge 1 – frog The source code :
 1 2 3 4 5 # are they on the victory tile? if so do victory if player.x == victory_tile.</description>
         
         <dc:creator>fang yuan</dc:creator>
-        <media:content url="http://example.orgimages/ctf/flare-on11.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        <media:content url="https://duythucne22.github.io/images/ctf/flare-on11.png" medium="image"><media:title type="html">featured image</media:title></media:content>
         
         
         

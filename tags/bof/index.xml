@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>bof on Fang Yuan</title>
-    <link>http://example.org/tags/bof/</link>
+    <link>https://duythucne22.github.io/tags/bof/</link>
     <description>Recent content in bof on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/bof/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://duythucne22.github.io/tags/bof/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Pwnable.tw Writeups</title>
-        <link>http://example.org/posts/pwnable.tw/</link>
+        <link>https://duythucne22.github.io/posts/pwnable.tw/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/pwnable.tw/</guid>
+        <guid>https://duythucne22.github.io/posts/pwnable.tw/</guid>
         <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
 So leaking one of them will help us get the pointer point to our shellcode. And that ROP gadget is at _start+38, which means after that print out, it will get input from us again.</description>
         
@@ -71,11 +71,11 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
       
       <item>
         <title>Pwn simple exploit</title>
-        <link>http://example.org/notes/note/</link>
+        <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/notes/note/</guid>
+        <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
         
         <dc:creator>fang yuan</dc:creator>

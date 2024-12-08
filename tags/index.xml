@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Tags on Fang Yuan</title>
-    <link>http://example.org/tags/</link>
+    <link>https://duythucne22.github.io/tags/</link>
     <description>Recent content in Tags on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://duythucne22.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>ctf</title>
-        <link>http://example.org/tags/ctf/</link>
+        <link>https://duythucne22.github.io/tags/ctf/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/ctf/</guid>
+        <guid>https://duythucne22.github.io/tags/ctf/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -40,11 +40,11 @@
       
       <item>
         <title>pwn</title>
-        <link>http://example.org/tags/pwn/</link>
+        <link>https://duythucne22.github.io/tags/pwn/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/pwn/</guid>
+        <guid>https://duythucne22.github.io/tags/pwn/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -58,11 +58,11 @@
       
       <item>
         <title>shellcode</title>
-        <link>http://example.org/tags/shellcode/</link>
+        <link>https://duythucne22.github.io/tags/shellcode/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/shellcode/</guid>
+        <guid>https://duythucne22.github.io/tags/shellcode/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -76,11 +76,11 @@
       
       <item>
         <title>writeups</title>
-        <link>http://example.org/tags/writeups/</link>
+        <link>https://duythucne22.github.io/tags/writeups/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/writeups/</guid>
+        <guid>https://duythucne22.github.io/tags/writeups/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -94,11 +94,11 @@
       
       <item>
         <title>flare on</title>
-        <link>http://example.org/tags/flare-on/</link>
+        <link>https://duythucne22.github.io/tags/flare-on/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/flare-on/</guid>
+        <guid>https://duythucne22.github.io/tags/flare-on/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -112,11 +112,11 @@
       
       <item>
         <title>Rev</title>
-        <link>http://example.org/tags/rev/</link>
+        <link>https://duythucne22.github.io/tags/rev/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/rev/</guid>
+        <guid>https://duythucne22.github.io/tags/rev/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -130,11 +130,11 @@
       
       <item>
         <title>heap</title>
-        <link>http://example.org/tags/heap/</link>
+        <link>https://duythucne22.github.io/tags/heap/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/heap/</guid>
+        <guid>https://duythucne22.github.io/tags/heap/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -148,11 +148,11 @@
       
       <item>
         <title>Reverse</title>
-        <link>http://example.org/tags/reverse/</link>
+        <link>https://duythucne22.github.io/tags/reverse/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/reverse/</guid>
+        <guid>https://duythucne22.github.io/tags/reverse/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -166,11 +166,11 @@
       
       <item>
         <title>rop</title>
-        <link>http://example.org/tags/rop/</link>
+        <link>https://duythucne22.github.io/tags/rop/</link>
         <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/rop/</guid>
+        <guid>https://duythucne22.github.io/tags/rop/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -184,11 +184,11 @@
       
       <item>
         <title>reverseing</title>
-        <link>http://example.org/tags/reverseing/</link>
+        <link>https://duythucne22.github.io/tags/reverseing/</link>
         <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/reverseing/</guid>
+        <guid>https://duythucne22.github.io/tags/reverseing/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -202,11 +202,11 @@
       
       <item>
         <title>bof</title>
-        <link>http://example.org/tags/bof/</link>
+        <link>https://duythucne22.github.io/tags/bof/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/bof/</guid>
+        <guid>https://duythucne22.github.io/tags/bof/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -220,11 +220,11 @@
       
       <item>
         <title>practice</title>
-        <link>http://example.org/tags/practice/</link>
+        <link>https://duythucne22.github.io/tags/practice/</link>
         <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/practice/</guid>
+        <guid>https://duythucne22.github.io/tags/practice/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -238,11 +238,11 @@
       
       <item>
         <title>Training</title>
-        <link>http://example.org/tags/training/</link>
+        <link>https://duythucne22.github.io/tags/training/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         
-        <guid>http://example.org/tags/training/</guid>
+        <guid>https://duythucne22.github.io/tags/training/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>

