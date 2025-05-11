@@ -11,20 +11,52 @@
     <description>Recent content in pwn on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/pwn/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Race Conditions</title>
+        <link>https://duythucne22.github.io/notes/race-conditions/</link>
+        <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 10 May 2025 00:00:00 +0000</atom:modified>
+        <guid>https://duythucne22.github.io/notes/race-conditions/</guid>
+        <description>Time-of-Check-to-Time-of-Use (TOCTOU) vulnerabilities in [[Filesystem]] operations
+Race conditions in the filesystem can be exploited through various techniques that take advantage of the time gap between when a program checks a resource and when it actually uses that resource. These vulnerabilities are particularly dangerous as they can lead to privilege escalation, arbitrary code execution, and unauthorized access to sensitive data.
+Time-of-Check-to-Time-of-Use (TOCTOU) Exploits The most common filesystem race condition vulnerability is the TOCTOU flaw.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>Duy Tan University CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 20 Nov 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</guid>
         <description>Pwn shellcode 1 Analysis It&amp;rsquo;a Shellcoding Challenge with a seccomp filter.
@@ -46,6 +78,10 @@
           
             
               <category>shellcode</category>
+            
+          
+            
+              <category>seccomp</category>
             
           
             
@@ -71,7 +107,7 @@
         <title>ATTTSV 2024</title>
         <link>https://duythucne22.github.io/posts/2024/ascis2024/</link>
         <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Mon, 28 Oct 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/ascis2024/</guid>
         <description>(I will Update, redo later if i am free :)) )
@@ -111,7 +147,7 @@ Run 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2
         <title>Patriot CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/patriotctf2024/</link>
         <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 28 Sep 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/patriotctf2024/</guid>
         <description>shrimple strings only 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 from pwn import * def malloc(): p.sendline(b&amp;#39;1&amp;#39;) p.sendlineafter(b&amp;#34;Size &amp;gt; &amp;#34;, b&amp;#39;16&amp;#39;) p.recvuntil(b&amp;#39;&amp;gt; &amp;#39;) def write(idx, string): p.sendline(b&amp;#39;2&amp;#39;) p.sendlineafter(b&amp;#39;Index &amp;gt; &amp;#39;, idx) p.</description>
@@ -153,7 +189,7 @@ Run 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 2
         <title>Sekai CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/sekaictf2024/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sun, 01 Sep 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/sekaictf2024/</guid>
         <description>Crack Me Developed for SekaiCTF 2022 but never got a chance to release it. Can you log in and claim the flag?Crack Me is an android application that asks for a email and password.
@@ -198,7 +234,7 @@ Time to look for the JavaScript&amp;hellip; which we can find in the assets/inde
         <title>Google CTF 2024 Writeup</title>
         <link>https://duythucne22.github.io/posts/2024/googlectf2024/</link>
         <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sun, 30 Jun 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/googlectf2024/</guid>
         <description>This year wn challenge was so hard, it also got lot of crypto encryption inside that :((
@@ -241,7 +277,7 @@ Leaking private aes key If you try encrypting and decrypting characters above 25
         <title>Asis CTF Writeup</title>
         <link>https://duythucne22.github.io/posts/2023/asisctf2023/</link>
         <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 02 Nov 2023 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2023/asisctf2023/</guid>
         <description>PWN hipwn Checksec
@@ -285,7 +321,7 @@ Leaking private aes key If you try encrypting and decrypting characters above 25
         <title>TetCTF 2023</title>
         <link>https://duythucne22.github.io/posts/2023/tetctf2023/</link>
         <pubDate>Thu, 12 Jan 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 12 Jan 2023 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2023/tetctf2023/</guid>
         <description>TetCTF 2023 - pwn01 You can download challenge files in my repo: pwn01.zip
@@ -330,7 +366,7 @@ Maybe because a large space for each variabel so IDA seems to work wrong when de
         <title>Pwnable.tw Writeups</title>
         <link>https://duythucne22.github.io/posts/pwnable.tw/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/pwnable.tw/</guid>
         <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
@@ -367,19 +403,13 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>DiceCTF 2022 Writeups</title>
         <link>https://duythucne22.github.io/posts/2022/dicectf2022/</link>
         <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 06 Jul 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2022/dicectf2022/</guid>
         <description>ctf.dicega.ng - baby-rop Challenge link: https://ctf.dicega.ng/challs
@@ -428,7 +458,7 @@ babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked
         <title>Pwn simple exploit</title>
         <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
@@ -464,19 +494,13 @@ babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>Trainning ROP EMPORIUM</title>
         <link>https://duythucne22.github.io/posts/rop-emporium/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/rop-emporium/</guid>
         <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
@@ -514,11 +538,35 @@ Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;
           
         
         
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://duythucne22.github.io/template/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        
+        <guid>https://duythucne22.github.io/template/</guid>
+        <description>robocopy &amp;ldquo;C:\Users\duyth\OneDrive\Fy_VAULT\Blog\Content&amp;rdquo; &amp;ldquo;C:\Users\duyth\GitRepo\f4n9yu4n\content&amp;rdquo; /mir</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
           
             
-              <category>trainning</category>
+              <category>pwn</category>
             
           
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
         
       </item>
       

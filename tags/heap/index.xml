@@ -11,9 +11,9 @@
     <description>Recent content in heap on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/heap/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Sekai CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/sekaictf2024/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sun, 01 Sep 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/sekaictf2024/</guid>
         <description>Crack Me Developed for SekaiCTF 2022 but never got a chance to release it. Can you log in and claim the flag?Crack Me is an android application that asks for a email and password.
@@ -69,7 +69,7 @@ Time to look for the JavaScript&amp;hellip; which we can find in the assets/inde
         <title>Pwnable.tw Writeups</title>
         <link>https://duythucne22.github.io/posts/pwnable.tw/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/pwnable.tw/</guid>
         <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
@@ -106,19 +106,13 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>Pwn simple exploit</title>
         <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
@@ -153,12 +147,6 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
             
           
         
-        
-          
-            
-              <category>trainning</category>
-            
-          
         
       </item>
       

@@ -11,20 +11,38 @@
     <description>Recent content in Categories on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Writeup</title>
+        <link>https://duythucne22.github.io/categories/writeup/</link>
+        <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        
+        <guid>https://duythucne22.github.io/categories/writeup/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>PWN</title>
         <link>https://duythucne22.github.io/categories/pwn/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/categories/pwn/</guid>
         <description></description>
@@ -42,27 +60,9 @@
         <title>Rev</title>
         <link>https://duythucne22.github.io/categories/rev/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/categories/rev/</guid>
-        <description></description>
-        
-        <dc:creator>d.thuc</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Writeup</title>
-        <link>https://duythucne22.github.io/categories/writeup/</link>
-        <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
-        
-        <guid>https://duythucne22.github.io/categories/writeup/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -78,7 +78,7 @@
         <title>RE</title>
         <link>https://duythucne22.github.io/categories/re/</link>
         <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/categories/re/</guid>
         <description></description>

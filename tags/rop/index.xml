@@ -11,9 +11,9 @@
     <description>Recent content in rop on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Thu, 02 Nov 2023 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/rop/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Asis CTF Writeup</title>
         <link>https://duythucne22.github.io/posts/2023/asisctf2023/</link>
         <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 02 Nov 2023 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2023/asisctf2023/</guid>
         <description>PWN hipwn Checksec
@@ -68,7 +68,7 @@
         <title>Pwnable.tw Writeups</title>
         <link>https://duythucne22.github.io/posts/pwnable.tw/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/pwnable.tw/</guid>
         <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
@@ -105,19 +105,13 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>DiceCTF 2022 Writeups</title>
         <link>https://duythucne22.github.io/posts/2022/dicectf2022/</link>
         <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 06 Jul 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2022/dicectf2022/</guid>
         <description>ctf.dicega.ng - baby-rop Challenge link: https://ctf.dicega.ng/challs
@@ -166,7 +160,7 @@ babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked
         <title>Pwn simple exploit</title>
         <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
@@ -202,19 +196,13 @@ babyrop: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>Trainning ROP EMPORIUM</title>
         <link>https://duythucne22.github.io/posts/rop-emporium/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/rop-emporium/</guid>
         <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
@@ -251,12 +239,6 @@ Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;
             
           
         
-        
-          
-            
-              <category>trainning</category>
-            
-          
         
       </item>
       

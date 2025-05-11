@@ -11,9 +11,9 @@
     <description>Recent content in Training on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 06 Nov 2021 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/training/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Trainning ROP EMPORIUM</title>
         <link>https://duythucne22.github.io/posts/rop-emporium/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/rop-emporium/</guid>
         <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
@@ -61,12 +61,6 @@ Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;
             
           
         
-        
-          
-            
-              <category>trainning</category>
-            
-          
         
       </item>
       

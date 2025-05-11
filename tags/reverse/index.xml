@@ -11,9 +11,9 @@
     <description>Recent content in Reverse on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/reverse/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Sekai CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/sekaictf2024/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sun, 01 Sep 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/sekaictf2024/</guid>
         <description>Crack Me Developed for SekaiCTF 2022 but never got a chance to release it. Can you log in and claim the flag?Crack Me is an android application that asks for a email and password.
@@ -69,7 +69,7 @@ Time to look for the JavaScript&amp;hellip; which we can find in the assets/inde
         <title>Pearl CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/pearctf2024/</link>
         <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 24 Aug 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/pearctf2024/</guid>
         <description>Pwn adventure Use stack pivoting for this challenge
@@ -104,7 +104,7 @@ Time to look for the JavaScript&amp;hellip; which we can find in the assets/inde
         <title>Angstrom CTF 2023</title>
         <link>https://duythucne22.github.io/posts/2023/angstromctf2023/</link>
         <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 27 Apr 2023 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2023/angstromctf2023/</guid>
         <description>checkers checkers

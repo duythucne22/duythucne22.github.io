@@ -11,20 +11,38 @@
     <description>Recent content in Tags on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>pwn</title>
+        <link>https://duythucne22.github.io/tags/pwn/</link>
+        <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        
+        <guid>https://duythucne22.github.io/tags/pwn/</guid>
+        <description></description>
+        
+        <dc:creator>d.thuc</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
         <title>ctf</title>
         <link>https://duythucne22.github.io/tags/ctf/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/ctf/</guid>
         <description></description>
@@ -39,12 +57,12 @@
       </item>
       
       <item>
-        <title>pwn</title>
-        <link>https://duythucne22.github.io/tags/pwn/</link>
+        <title>seccomp</title>
+        <link>https://duythucne22.github.io/tags/seccomp/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
-        <guid>https://duythucne22.github.io/tags/pwn/</guid>
+        <guid>https://duythucne22.github.io/tags/seccomp/</guid>
         <description></description>
         
         <dc:creator>d.thuc</dc:creator>
@@ -60,7 +78,7 @@
         <title>shellcode</title>
         <link>https://duythucne22.github.io/tags/shellcode/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/shellcode/</guid>
         <description></description>
@@ -78,7 +96,7 @@
         <title>writeups</title>
         <link>https://duythucne22.github.io/tags/writeups/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/writeups/</guid>
         <description></description>
@@ -96,7 +114,7 @@
         <title>flare on</title>
         <link>https://duythucne22.github.io/tags/flare-on/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/flare-on/</guid>
         <description></description>
@@ -114,7 +132,7 @@
         <title>Rev</title>
         <link>https://duythucne22.github.io/tags/rev/</link>
         <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/rev/</guid>
         <description></description>
@@ -132,7 +150,7 @@
         <title>heap</title>
         <link>https://duythucne22.github.io/tags/heap/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/heap/</guid>
         <description></description>
@@ -150,7 +168,7 @@
         <title>Reverse</title>
         <link>https://duythucne22.github.io/tags/reverse/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/reverse/</guid>
         <description></description>
@@ -168,7 +186,7 @@
         <title>rop</title>
         <link>https://duythucne22.github.io/tags/rop/</link>
         <pubDate>Thu, 02 Nov 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/rop/</guid>
         <description></description>
@@ -186,7 +204,7 @@
         <title>reverseing</title>
         <link>https://duythucne22.github.io/tags/reverseing/</link>
         <pubDate>Thu, 28 Sep 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/reverseing/</guid>
         <description></description>
@@ -204,7 +222,7 @@
         <title>bof</title>
         <link>https://duythucne22.github.io/tags/bof/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/bof/</guid>
         <description></description>
@@ -222,7 +240,7 @@
         <title>practice</title>
         <link>https://duythucne22.github.io/tags/practice/</link>
         <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/practice/</guid>
         <description></description>
@@ -240,7 +258,7 @@
         <title>Training</title>
         <link>https://duythucne22.github.io/tags/training/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         
         <guid>https://duythucne22.github.io/tags/training/</guid>
         <description></description>

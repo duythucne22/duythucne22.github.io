@@ -11,9 +11,9 @@
     <description>Recent content in trainning on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 04 Nov 2022 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/series/trainning/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Pwnable.tw Writeups</title>
         <link>https://duythucne22.github.io/posts/pwnable.tw/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/pwnable.tw/</guid>
         <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
@@ -73,7 +73,7 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
         <title>Reversing.kr Training Writeups</title>
         <link>https://duythucne22.github.io/posts/reversing.kr/</link>
         <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 10 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/reversing.kr/</guid>
         <description>Reversing.kr practice Write-up Easy Crack - 100pts Initial analysis with DiE , we have a PE32 file
@@ -119,7 +119,7 @@ Open with IDA, at function DialogFunc have sub_401080, use winapi GetDlgItemText
         <title>Pwn simple exploit</title>
         <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
@@ -167,7 +167,7 @@ Open with IDA, at function DialogFunc have sub_401080, use winapi GetDlgItemText
         <title>Trainning ROP EMPORIUM</title>
         <link>https://duythucne22.github.io/posts/rop-emporium/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/rop-emporium/</guid>
         <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.

@@ -11,20 +11,52 @@
     <description>Recent content in Writeup on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/categories/writeup/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Race Conditions</title>
+        <link>https://duythucne22.github.io/notes/race-conditions/</link>
+        <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 10 May 2025 00:00:00 +0000</atom:modified>
+        <guid>https://duythucne22.github.io/notes/race-conditions/</guid>
+        <description>Time-of-Check-to-Time-of-Use (TOCTOU) vulnerabilities in [[Filesystem]] operations
+Race conditions in the filesystem can be exploited through various techniques that take advantage of the time gap between when a program checks a resource and when it actually uses that resource. These vulnerabilities are particularly dangerous as they can lead to privilege escalation, arbitrary code execution, and unauthorized access to sensitive data.
+Time-of-Check-to-Time-of-Use (TOCTOU) Exploits The most common filesystem race condition vulnerability is the TOCTOU flaw.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>Sekai CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/sekaictf2024/</link>
         <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sun, 01 Sep 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/sekaictf2024/</guid>
         <description>Crack Me Developed for SekaiCTF 2022 but never got a chance to release it. Can you log in and claim the flag?Crack Me is an android application that asks for a email and password.
@@ -69,7 +101,7 @@ Time to look for the JavaScript&amp;hellip; which we can find in the assets/inde
         <title>Pearl CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/pearctf2024/</link>
         <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 24 Aug 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/pearctf2024/</guid>
         <description>Pwn adventure Use stack pivoting for this challenge
@@ -104,7 +136,7 @@ Time to look for the JavaScript&amp;hellip; which we can find in the assets/inde
         <title>Angstrom CTF 2023</title>
         <link>https://duythucne22.github.io/posts/2023/angstromctf2023/</link>
         <pubDate>Thu, 27 Apr 2023 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 27 Apr 2023 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2023/angstromctf2023/</guid>
         <description>checkers checkers
@@ -148,7 +180,7 @@ and compare with:
         <title>Pwnable.tw Writeups</title>
         <link>https://duythucne22.github.io/posts/pwnable.tw/</link>
         <pubDate>Fri, 04 Nov 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Nov 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/pwnable.tw/</guid>
         <description>Pwnable.tw Start - 100pts Leak address Nothing&amp;rsquo;s interesting except the highlighted ROP, it will help us print out 0x14 bytes of data on esp as you can see mov ecx, esp. When in GDB, we can also see that there will be a lot of stack address:
@@ -185,19 +217,13 @@ So leaking one of them will help us get the pointer point to our shellcode. And 
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>Reversing.kr Training Writeups</title>
         <link>https://duythucne22.github.io/posts/reversing.kr/</link>
         <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Thu, 10 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/reversing.kr/</guid>
         <description>Reversing.kr practice Write-up Easy Crack - 100pts Initial analysis with DiE , we have a PE32 file
@@ -231,19 +257,13 @@ Open with IDA, at function DialogFunc have sub_401080, use winapi GetDlgItemText
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>Pwn simple exploit</title>
         <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
@@ -279,19 +299,13 @@ Open with IDA, at function DialogFunc have sub_401080, use winapi GetDlgItemText
           
         
         
-          
-            
-              <category>trainning</category>
-            
-          
-        
       </item>
       
       <item>
         <title>Trainning ROP EMPORIUM</title>
         <link>https://duythucne22.github.io/posts/rop-emporium/</link>
         <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Sat, 06 Nov 2021 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/rop-emporium/</guid>
         <description>Writeup — ROP Emporium Challenge 01: ret2win Our aim is overflow to control RIP.
@@ -329,11 +343,35 @@ Exploit: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 from pwn import * p = process(&amp;
           
         
         
+      </item>
+      
+      <item>
+        <title></title>
+        <link>https://duythucne22.github.io/template/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        
+        <guid>https://duythucne22.github.io/template/</guid>
+        <description>robocopy &amp;ldquo;C:\Users\duyth\OneDrive\Fy_VAULT\Blog\Content&amp;rdquo; &amp;ldquo;C:\Users\duyth\GitRepo\f4n9yu4n\content&amp;rdquo; /mir</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
           
             
-              <category>trainning</category>
+              <category>pwn</category>
             
           
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
         
       </item>
       

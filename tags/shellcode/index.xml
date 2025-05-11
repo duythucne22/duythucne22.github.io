@@ -11,9 +11,9 @@
     <description>Recent content in shellcode on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
     <lastBuildDate>Wed, 20 Nov 2024 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/tags/shellcode/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
         <title>Duy Tan University CTF 2024</title>
         <link>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</link>
         <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Wed, 20 Nov 2024 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/posts/2024/isitdtuctf2024quals/</guid>
         <description>Pwn shellcode 1 Analysis It&amp;rsquo;a Shellcoding Challenge with a seccomp filter.
@@ -46,6 +46,10 @@
           
             
               <category>shellcode</category>
+            
+          
+            
+              <category>seccomp</category>
             
           
             

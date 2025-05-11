@@ -663,9 +663,9 @@
     
     var enableSearch = JSON.parse("true");
     
-    var searchDistance = JSON.parse("100");
+    var searchDistance = JSON.parse("null");
     
-    var searchThreshold = JSON.parse("0.4");
+    var searchThreshold = JSON.parse("null");
     
     var searchContent = JSON.parse("true");
     
@@ -1362,22 +1362,10 @@
 
 <link rel="manifest" href="/manifest.json">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-512x512.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.png" sizes="any" type="image/png" />
+  
 
 
     <script type="application/ld+json">
@@ -1556,7 +1544,7 @@
 
       
         <li class="navbarm__menu--item ">
-          <a href="/series">Series</a>
+          <a href="/notes">Notes</a>
         </li>
       
       
@@ -1568,7 +1556,7 @@
 
       
         <li class="navbarm__menu--item ">
-          <a href="/notes">Notes</a>
+          <a href="/archive">Archive</a>
         </li>
       
       
@@ -1584,12 +1572,6 @@
       <li class="navbarm__menu--item active">
         <a href="/categories" class="navbarm__menu--term" data-index="1">
           Categories
-        </a>
-      </li>
-    
-      <li class="navbarm__menu--item ">
-        <a href="/series" class="navbarm__menu--term" data-index="2">
-          Series
         </a>
       </li>
     
@@ -1671,15 +1653,15 @@
   
   
   
-  <a href="/series" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Series</a>
-  
-  
-  
-  
-  
-  
-  
   <a href="/notes" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Notes</a>
+  
+  
+  
+  
+  
+  
+  
+  <a href="/archive" class="navbar__menu-item navbar__slide-down " dir="ltr" data-ani="true">Archive</a>
   
   
 </div>
@@ -1909,7 +1891,7 @@
                         pwn
                     </span>
                     <span class="taxo__num" dir="auto">
-                        11
+                        13
                     </span>
                 </a>
             </span>
@@ -1962,6 +1944,19 @@
                     </span>
                     <span class="taxo__num" dir="auto">
                         5
+                    </span>
+                </a>
+            </span>
+        
+        
+        
+            <span class="tag">
+                <a href="/tags/seccomp/" class="is-tags taxo__link" data-dir="ltr">
+                    <span class="taxo__text">
+                        seccomp
+                    </span>
+                    <span class="taxo__num" dir="auto">
+                        1
                     </span>
                 </a>
             </span>
@@ -2065,7 +2060,7 @@
                         Writeup
                     </span>
                     <span class="taxo__num" dir="auto">
-                        7
+                        9
                     </span>
                 </a>
             </span>
@@ -2074,31 +2069,6 @@
     </section>
 </div>
 
-
-<div class="taxo">
-    <section>
-        <span class="title p2">
-            <a href="/series/" class="taxo__title">
-                Series
-            </a>
-        </span>
-        
-        
-        
-            <span class="tag">
-                <a href="/series/trainning/" class="is-series taxo__link" data-dir="ltr">
-                    <span class="taxo__text">
-                        trainning
-                    </span>
-                    <span class="taxo__num" dir="auto">
-                        4
-                    </span>
-                </a>
-            </span>
-        
-        
-    </section>
-</div>
 
 
 </div>
@@ -2318,7 +2288,7 @@
                 
             <p class="caption">
                 
-                    ©2024, All Rights Reserved
+                    ©2025, All Rights Reserved
                 
             </p>
         

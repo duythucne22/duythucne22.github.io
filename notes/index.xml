@@ -11,20 +11,52 @@
     <description>Recent content in Notes on Fang Yuan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <managingEditor>hcdtdayneg@gmail.com (d.thuc)</managingEditor>
-    <webMaster>hcdtdayneg@gmail.com (d.thuc)</webMaster>
-    <copyright>©2024, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 04 Feb 2022 00:00:00 +0000</lastBuildDate>
+    <managingEditor>hcdtdayne811@gmail.com (d.thuc)</managingEditor>
+    <webMaster>hcdtdayne811@gmail.com (d.thuc)</webMaster>
+    <copyright>©2025, All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 10 May 2025 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://duythucne22.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
+        <title>Race Conditions</title>
+        <link>https://duythucne22.github.io/notes/race-conditions/</link>
+        <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
+        <atom:modified>Sat, 10 May 2025 00:00:00 +0000</atom:modified>
+        <guid>https://duythucne22.github.io/notes/race-conditions/</guid>
+        <description>Time-of-Check-to-Time-of-Use (TOCTOU) vulnerabilities in [[Filesystem]] operations
+Race conditions in the filesystem can be exploited through various techniques that take advantage of the time gap between when a program checks a resource and when it actually uses that resource. These vulnerabilities are particularly dangerous as they can lead to privilege escalation, arbitrary code execution, and unauthorized access to sensitive data.
+Time-of-Check-to-Time-of-Use (TOCTOU) Exploits The most common filesystem race condition vulnerability is the TOCTOU flaw.</description>
+        
+        <dc:creator>fang yuan</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>pwn</category>
+            
+          
+        
+        
+          
+            
+              <category>Writeup</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>Pwn simple exploit</title>
         <link>https://duythucne22.github.io/notes/note/</link>
         <pubDate>Fri, 04 Feb 2022 00:00:00 +0000</pubDate>
-        <author>hcdtdayneg@gmail.com (d.thuc)</author>
+        <author>hcdtdayne811@gmail.com (d.thuc)</author>
         <atom:modified>Fri, 04 Feb 2022 00:00:00 +0000</atom:modified>
         <guid>https://duythucne22.github.io/notes/note/</guid>
         <description>Bof Fmt Heap </description>
@@ -59,12 +91,6 @@
             
           
         
-        
-          
-            
-              <category>trainning</category>
-            
-          
         
       </item>
       
